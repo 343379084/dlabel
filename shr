@@ -2,7 +2,7 @@
 **************************************
  
 [rewrite_local]
-^https://dlabel\.ctaiot\.com/api/(welfare/list|push/list) url script-response-body https://raw.githubusercontent.com/343379084/dlabel/refs/heads/main/shr?token=GHSAT0AAAAAACWSNEMX4AUTRHIKGTIRAKG2ZWMAM3A  
+^https://dlabel\.ctaiot\.com/api/(welfare/list|push/list) url script-response-body https://raw.githubusercontent.com/343379084/dlabel/refs/heads/main/shr.js?token=GHSAT0AAAAAACWSNEMX4AUTRHIKGTIRAKG2ZWMAM3A  
 [mitm]
 hostname = dlabel.ctaiot.com  
  
